@@ -7,22 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		169CC4DD231AD83900B5AF6B /* ReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC4D2231AD83800B5AF6B /* ReusableView.m */; };
+		169CC4E0231AD83900B5AF6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC4D8231AD83800B5AF6B /* ViewController.m */; };
+		169CC4E1231AD83900B5AF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169CC4DA231AD83900B5AF6B /* Main.storyboard */; };
+		169CC4E7231AD8F900B5AF6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC4E5231AD8F900B5AF6B /* AppDelegate.m */; };
 		22D390E99D15449B2558CF72 /* Pods_XKQReusableScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48132D3067BFFA6BB1FBCE /* Pods_XKQReusableScrollView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* XKQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XKQAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XKQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XKQViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DA398FF4D6E137EB2540628C /* Pods_XKQReusableScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34437FBAFD7884AC6CDE16 /* Pods_XKQReusableScrollView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,20 +37,22 @@
 
 /* Begin PBXFileReference section */
 		0C34437FBAFD7884AC6CDE16 /* Pods_XKQReusableScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKQReusableScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		169CC4D2231AD83800B5AF6B /* ReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableView.m; sourceTree = "<group>"; };
+		169CC4D7231AD83800B5AF6B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		169CC4D8231AD83800B5AF6B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		169CC4D9231AD83800B5AF6B /* ReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableView.h; sourceTree = "<group>"; };
+		169CC4DA231AD83900B5AF6B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		169CC4E5231AD8F900B5AF6B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		169CC4E6231AD8F900B5AF6B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D5545D49AC56A481120AE20 /* Pods-XKQReusableScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKQReusableScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKQReusableScrollView_Tests/Pods-XKQReusableScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		484C534F15A4EFB91D0541FC /* XKQReusableScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKQReusableScrollView.podspec; path = ../XKQReusableScrollView.podspec; sourceTree = "<group>"; };
+		484C534F15A4EFB91D0541FC /* XKQReusableScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKQReusableScrollView.podspec; path = ../XKQReusableScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* XKQReusableScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKQReusableScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* XKQReusableScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XKQReusableScrollView-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* XKQReusableScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XKQReusableScrollView-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* XKQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKQAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* XKQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKQAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XKQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKQViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XKQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKQViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XKQReusableScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKQReusableScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,13 +60,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C48132D3067BFFA6BB1FBCE /* Pods_XKQReusableScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKQReusableScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6BB1C7CB25400B3CD32E56 /* Pods-XKQReusableScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKQReusableScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKQReusableScrollView_Tests/Pods-XKQReusableScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B4E333DAD50C076EC7E31761 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4E333DAD50C076EC7E31761 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BAEA9E01FDA3660C9CAEED3C /* Pods-XKQReusableScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKQReusableScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKQReusableScrollView_Example/Pods-XKQReusableScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BDE8FA796BEA255451B7ADAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDE8FA796BEA255451B7ADAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3EB694EED5E0B0739AE7FE2 /* Pods-XKQReusableScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKQReusableScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-XKQReusableScrollView_Example/Pods-XKQReusableScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,12 +131,13 @@
 		6003F593195388D20070C39A /* Example for XKQReusableScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* XKQAppDelegate.h */,
-				6003F59D195388D20070C39A /* XKQAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XKQViewController.h */,
-				6003F5A6195388D20070C39A /* XKQViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				169CC4E6231AD8F900B5AF6B /* AppDelegate.h */,
+				169CC4E5231AD8F900B5AF6B /* AppDelegate.m */,
+				169CC4DA231AD83900B5AF6B /* Main.storyboard */,
+				169CC4D9231AD83800B5AF6B /* ReusableView.h */,
+				169CC4D2231AD83800B5AF6B /* ReusableView.m */,
+				169CC4D7231AD83800B5AF6B /* ViewController.h */,
+				169CC4D8231AD83800B5AF6B /* ViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -149,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* XKQReusableScrollView-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* XKQReusableScrollView-Prefix.pch */,
 			);
@@ -193,7 +192,6 @@
 				9E6BB1C7CB25400B3CD32E56 /* Pods-XKQReusableScrollView_Tests.debug.xcconfig */,
 				2D5545D49AC56A481120AE20 /* Pods-XKQReusableScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				169CC4E1231AD83900B5AF6B /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,9 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* XKQAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XKQViewController.m in Sources */,
+				169CC4E0231AD83900B5AF6B /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				169CC4DD231AD83900B5AF6B /* ReusableView.m in Sources */,
+				169CC4E7231AD8F900B5AF6B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,28 +387,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

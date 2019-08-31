@@ -1,0 +1,6 @@
+framework module XKQReusableScrollView {
+  umbrella header "XKQReusableScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

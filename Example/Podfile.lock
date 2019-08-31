@@ -1,0 +1,16 @@
+PODS:
+  - XKQReusableScrollView (0.1.0)
+
+DEPENDENCIES:
+  - XKQReusableScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  XKQReusableScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKQReusableScrollView: a93067a2420d12ab9e30cfc6140feee4a381a9eb
+
+PODFILE CHECKSUM: 46e364f2273c31fc4914bd5620d8a35e4ade089d
+
+COCOAPODS: 1.7.5

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XKQReusableScrollView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XKQReusableScrollView.'
+  s.summary          = 'A horizontal croll view reuses views that can be customised.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/XKQ/XKQReusableScrollView'
+  s.homepage         = 'https://github.com/XKQV/XKQReusableScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'XKQ' => '407635142@qq.com' }
-  s.source           = { :git => 'https://github.com/XKQ/XKQReusableScrollView.git', :tag => s.version.to_s }
+  s.author           = { 'XKQV' => '407635142@qq.com' }
+  s.source           = { :git => 'https://github.com/XKQV/XKQReusableScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XKQReusableScrollView/Classes/**/*'
+  s.source_files = 'XKQReusableScrollView/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XKQReusableScrollView' => ['XKQReusableScrollView/Assets/*.png']

@@ -1,0 +1,6 @@
+framework module Pods_XKQReusableScrollView_Tests {
+  umbrella header "Pods-XKQReusableScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
