@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XKQReusableScrollView_Example' do
+  pod 'XKQReusableScrollView', :path => '../'
+
+  target 'XKQReusableScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
