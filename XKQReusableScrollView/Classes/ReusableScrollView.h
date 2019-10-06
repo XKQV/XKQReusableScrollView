@@ -11,9 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 @class ReusableScrollView;
 
-@protocol ReusableScrollViewDelegate<NSObject, UIScrollViewDelegate>
-
-- (void)reusableScrollView:(ReusableScrollView *)reusableScrollView didSelectSubviewAtIndex:(NSInteger)index;
+@protocol ReusableScrollViewDataSource <NSObject>
 
 - (__kindof UIView *)reusableScrollView:(ReusableScrollView *)reusableScrollView subviewAtIndex:(NSInteger)index;
 
@@ -21,9 +19,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@protocol ReusableScrollViewDelegate<NSObject, UIScrollViewDelegate>
+
+- (void)reusableScrollView:(ReusableScrollView *)reusableScrollView didSelectSubviewAtIndex:(NSInteger)index;
+
+@end
+
 @interface ReusableScrollView : UIView
 
 @property (nonatomic, strong) id<ReusableScrollViewDelegate>delegate;
+@property (nonatomic, strong) id<ReusableScrollViewDataSource>dataSource;
 
 - (__kindof UIView *)dequeueReusableSubviewAtIndex:(NSUInteger)index;
 

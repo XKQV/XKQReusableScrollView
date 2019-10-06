@@ -15,15 +15,6 @@
 
 @implementation ReusableView
 
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        self.frame = frame;
-        [self setupView];
-    }
-    return self;
-}
-
 - (instancetype)init {
     self = [super init];
     if (self) {

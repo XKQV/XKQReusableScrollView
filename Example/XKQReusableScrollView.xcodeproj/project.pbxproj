@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162008F12349A25B00B1DEF9 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162008F02349A25B00B1DEF9 /* ImageView.m */; };
 		169CC4DD231AD83900B5AF6B /* ReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC4D2231AD83800B5AF6B /* ReusableView.m */; };
 		169CC4E0231AD83900B5AF6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169CC4D8231AD83800B5AF6B /* ViewController.m */; };
 		169CC4E1231AD83900B5AF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169CC4DA231AD83900B5AF6B /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0C34437FBAFD7884AC6CDE16 /* Pods_XKQReusableScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKQReusableScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162008EF2349A25B00B1DEF9 /* ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		162008F02349A25B00B1DEF9 /* ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
 		169CC4D2231AD83800B5AF6B /* ReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableView.m; sourceTree = "<group>"; };
 		169CC4D7231AD83800B5AF6B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		169CC4D8231AD83800B5AF6B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -94,6 +97,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162008F22349A26A00B1DEF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				169CC4D9231AD83800B5AF6B /* ReusableView.h */,
+				169CC4D2231AD83800B5AF6B /* ReusableView.m */,
+				162008EF2349A25B00B1DEF9 /* ImageView.h */,
+				162008F02349A25B00B1DEF9 /* ImageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -134,10 +148,9 @@
 				169CC4E6231AD8F900B5AF6B /* AppDelegate.h */,
 				169CC4E5231AD8F900B5AF6B /* AppDelegate.m */,
 				169CC4DA231AD83900B5AF6B /* Main.storyboard */,
-				169CC4D9231AD83800B5AF6B /* ReusableView.h */,
-				169CC4D2231AD83800B5AF6B /* ReusableView.m */,
 				169CC4D7231AD83800B5AF6B /* ViewController.h */,
 				169CC4D8231AD83800B5AF6B /* ViewController.m */,
+				162008F22349A26A00B1DEF9 /* View */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -362,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				169CC4E0231AD83900B5AF6B /* ViewController.m in Sources */,
+				162008F12349A25B00B1DEF9 /* ImageView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				169CC4DD231AD83900B5AF6B /* ReusableView.m in Sources */,
 				169CC4E7231AD8F900B5AF6B /* AppDelegate.m in Sources */,
